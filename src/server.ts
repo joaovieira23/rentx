@@ -1,7 +1,11 @@
+import "reflect-metadata";
+
 import * as express from 'express';
 // import swaggerUi from 'swagger-ui-express';
 
 // import swaggerFile from './swagger.json';
+
+
 
 import './database';
 
