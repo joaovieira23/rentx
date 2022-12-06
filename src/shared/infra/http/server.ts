@@ -6,14 +6,12 @@ import "express-async-errors";
 
 // import swaggerFile from './swagger.json';
 
-
-
-import './database';
+import '@shared/infra/typeorm';
 
 import '@shared/container';
 
 import { router } from './routes';
-import { AppError } from "@errors/AppError";
+import { AppError } from "@shared/errors/AppError";
 
 const app = express();
 
